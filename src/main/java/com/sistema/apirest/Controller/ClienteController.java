@@ -21,7 +21,7 @@ public class ClienteController {
 
     @GetMapping
     public List<Cliente> listar() {
-        return clienteRepository.findAll(); // Use JpaRepository to fetch data
+        return null;
     }
 
     @PostMapping
